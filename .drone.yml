@@ -23,6 +23,7 @@ publish:
 deploy:
     webhook:
         image: plugins/drone-webhook
+#deploy phaz
         skip_verify: true
         method: POST
         auth:
